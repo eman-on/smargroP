@@ -1,4 +1,5 @@
 ## Happy Button / Кнопка Счастья
+(EN)
 
 Developed as addon for GIS system Digitals that significantly simplifies objects picking process and make it much faster.
 Has been developed for certain qualifier but can be changed.
@@ -14,7 +15,7 @@ Main:
 2. House numbering kit
 3. House parameters kit
 
-#### Happy Button
+1- Happy Button
 
 It significantly simplify object picking process:
 automatically build composite objects;
@@ -74,20 +75,24 @@ Automatically signs objects.
 - Playgrounds
 - Garages
 
-#### House numbering kit
+2- House numbering kit
 
 Allow quick numbering of buildings
+
 2.1 One line kit - numbers from 1 to 100 + letter
+
 2.2 Two likes kit - numbers from 1 to 50 and 51 to 100 + letter
+
 2.3 Calculator kit: numbers + letter
 
-#### Building parameters kit
+3- Building parameters kit
 
 Comfortable kit with material parameters of buildings. Allow quick parameters picking. Has limits to work only with layers "buildings", "bhurch" and "transformer buildings" in order to exclude of ruin qualifier.
 
  
 
  
+(RU)
 
 Разработана как дополнение к ГИС системе Digitals значительно упрощая и ускоряя сбор объектов.
 Разработана для имеющегося на тот момент классификатора. При необходимости, можно разработать и под другой.
@@ -96,11 +101,12 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 #### Описание:
 Глобальные:
+
 1. Кнопка счастья
 2. Набор нумирации домов
 3. Набор параметров домов
 
-1. Кнопка счастья:
+1- Кнопка счастья:
 
 Позволяет сильно упростить сбор объектов:
 автоматически достраивать составные объекты;
@@ -162,14 +168,17 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 - Детские площадки
 - Гаражи
 
-2. Набор нумирации домов
+2- Набор нумирации домов
 
 Позволяет быстро выставлять нумирацию домов.
+
 2.1 Набор в одну строчку - номера от 1 до 100 + буквы
+
 2.2 Набор в две строки - номера от 1 до 50 и от 51 до 100 + буквы в каждой строке
+
 2.3 Набор в виде калькулятора: номера + буквы
 
-3.Набор параметров домов
+3- Набор параметров домов
 
 Удобный набор с параметрами материалов домов.
 Позволяет быстро выбрать нужный набор параметров. Имеет ограничение,
