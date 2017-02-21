@@ -1,7 +1,4 @@
-## Happy Button
-## Кнопка Счастья
-
-EN/АНГЛ
+## Happy Button / Кнопка Счастья
 
 Developed as addon for GIS system Digitals that significantly simplifies objects picking process and make it much faster.
 Has been developed for certain classifier but can be changed.
@@ -10,6 +7,7 @@ Solution is to delete that layers manually or use program "Check" from this repo
 
 #### Description
 Main:
+
 1. Happy Button
 2. House numbering kit
 3. House parameters kit
