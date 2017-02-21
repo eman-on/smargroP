@@ -9,7 +9,7 @@ Solution is to delete that layers manually or use program "Check" from this repo
  
 
 ### Description
-Main:
+**Main:**
 
 1. Happy Button
 2. House numbering kit
@@ -23,7 +23,7 @@ perform automatic transitions between collection patterns as well as layers;
 automatically sign objects.
 
 
-1.1 Compositing:
+1.1 Compositing
 
 Performs automatic object construction, auto transition between the layers/signatures.
 - Simplifies the collection of poles.
@@ -100,7 +100,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 Решается проверкой слоев перед сдачей (их удалением) или же программой "Check" из данного репозитория.
 
 #### Описание:
-Глобальные:
+**Глобальные:**
 
 1. Кнопка счастья
 2. Набор нумирации домов
@@ -113,7 +113,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 выполнять автоматические переходы между шаблонами сбора а так же слоями;
 автоматически подписывать объекты.
 
-1.1 Построение:
+1.1 Построение
 
 Выполняет автоматическое построение объектов, автопереходы между слоями, подписи.
 - Упрощает сбор столбов.
