@@ -30,7 +30,7 @@ Pic. 2. The result: Layers
 
 In the list will be shown all not specified layers. There are several options:
 - Delete selected layer - will delete the layer with all information on it;
-- Show objects in selected layer - will show in Digitals objects one by one that you could change their layers.
+- Show objects in selected layer - will show objects one by one in Digitals that you could change their layers.
 
  
  
