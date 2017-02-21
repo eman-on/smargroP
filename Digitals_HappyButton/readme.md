@@ -6,6 +6,8 @@ Has been developed for certain qualifier but can be changed.
 Some functions are in test mode that can create new blank layers sometimes.
 Solution is to delete that layers manually or use program "Check" from this repository to compare existing layers with qualifier and automatically delete unregistered. Button and Settings are integrated in GIS System.
 
+Developed for v. 2015 y.
+
  
 
 ### Description
