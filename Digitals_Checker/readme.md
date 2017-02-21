@@ -13,9 +13,8 @@ Developed for v. 2015 y.
  
 ### Description
 TCP/IP program works with LocalHost:1067 (can be changed)
-What it's needed for?
 
-It's needed to check project before delivery to the customer: is there any new "not specified" layers that are not described in qualifier and does all layers in the project has right parameters. How and what:
+This program check project before delivery to the customer: is there any new "not specified" layers that are not described in qualifier and does all layers in the project has right parameters. How and what:
 
 Click on Addon button (picture 1) in Digitals and the process will begin.
 
