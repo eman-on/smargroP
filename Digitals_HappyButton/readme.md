@@ -5,14 +5,14 @@ Has been developed for certain classifier but can be changed.
 Some functions are in test mode that can create new blank layers sometimes.
 Solution is to delete that layers manually or use program "Check" from this repository to compare existing layers with classifier and automatically delete unregistered.
 
-#### Description
+### Description
 Main:
 
 1. Happy Button
 2. House numbering kit
 3. House parameters kit
 
-##### Happy Button
+#### Happy Button
 
 It significantly simplify object picking process:
 automatically build composite objects;
@@ -22,26 +22,24 @@ automatically sign objects.
 
 1.1 Compositing:
 - Simplifies the collection of poles.
-При сборе столбов выдает запрос на добавление фонаря в виде
-всплывающего окошка, где дается несколько видов фонарей на
-выбор. В случае отсутствия фанаря нажмите "Отмена".
+In poles collecting process prompts you to add lantern in pop-up window which provides several types of them. In the absence of a lantern, press "Cancel".
 
-- Упрощает сбор укосов.
+- Simplifies the collection of укосов.
 Предлагает автореверс и автоматически достраивает линию контур.
 При сборе укрепленных укосов необходимо сделать линию невидимой
 нажав правой кнопкой "Невидимая" (она автоматически выделяется).
 
-- Упращает сбор деревьев.
+- Simplifies the collection of  деревьев.
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи. Необходимо
 дорисовать черную линию (она автоматически выбрана)
 
-- Упращает сбор урезов воды.
+- Simplifies the collection of  урезов воды.
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи. Необходимо
 дорисовать черную линию (она автоматически выбрана)
 
-- Упращает сбор геодезических пунктов.
+- Simplifies the collection of  геодезических пунктов.
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи.
 
