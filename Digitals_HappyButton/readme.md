@@ -5,6 +5,8 @@ Has been developed for certain qualifier but can be changed.
 Some functions are in test mode that can create new blank layers sometimes.
 Solution is to delete that layers manually or use program "Check" from this repository to compare existing layers with qualifier and automatically delete unregistered.
 
+ 
+
 ### Description
 Main:
 
@@ -72,14 +74,14 @@ Automatically signs objects.
 - Playgrounds
 - Garages
 
-2. House numbering kit
+#### House numbering kit
 
 Allow quick numbering of buildings
 2.1 One line kit - numbers from 1 to 100 + letter
 2.2 Two likes kit - numbers from 1 to 50 and 51 to 100 + letter
 2.3 Calculator kit: numbers + letter
 
-3. Building parameters kit
+#### Building parameters kit
 
 Comfortable kit with material parameters of buildings. Allow quick parameters picking. Has limits to work only with layers "buildings", "bhurch" and "transformer buildings" in order to exclude of ruin qualifier.
 
