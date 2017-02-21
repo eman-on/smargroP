@@ -1,4 +1,4 @@
-## Happy Button / Кнопка Счастья
+## Happy Button / Кнопка Счастья 
 (EN)
 
 Developed as addon for GIS system Digitals that significantly simplifies objects picking process and make it much faster.
