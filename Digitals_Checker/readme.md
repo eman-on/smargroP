@@ -34,7 +34,7 @@ In the list will be shown all not specified layers. There are several options:
 
  
  
- In the "Parameters" part (picture 3) the program shows all layers that has any difference with layer from qualifier by parameters:
+ In the "Parameters" part (picture 3) the program shows all layers with parameters that differ from qualifier:
  
  ![Image of parameters](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/params.jpg)
  
@@ -46,3 +46,5 @@ In the list will be shown all not specified layers. There are several options:
  - Clear selected layer parameters (make default);
  - Clear all layers parameters;
  - Check "global" parameters of project and clean them.
+
+In the output of this check procedure the project will be cleared from non specified layers and all layers parameters will be cleared and checked.
