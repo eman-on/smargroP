@@ -4,7 +4,7 @@
 Developed as addon for GIS system "Digitals" that significantly simplifies objects picking process and make it much faster.
 Has been developed for certain qualifier but can be changed.
 Some functions are in test mode that can create new blank layers sometimes.
-Solution is to delete that layers manually or use program "Check" from this repository to compare existing layers with qualifier and automatically delete unregistered.
+Solution is to delete that layers manually or use program "Check" from this repository to compare existing layers with qualifier and automatically delete unregistered. Button and Settings are integrated in GIS System.
 
  
 
@@ -97,7 +97,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 Разработана как дополнение к ГИС системе "Digitals" значительно упрощая и ускоряя сбор объектов.
 Разработана для имеющегося на тот момент классификатора. При необходимости, можно разработать и под другой.
 Некоторые функции эксперементальны что, иногда, приводит к появлению новых (пустых) слоев.
-Решается проверкой слоев перед сдачей (их удалением) или же программой "Check" из данного репозитория.
+Решается проверкой слоев перед сдачей (их удалением) или же программой "Check" из данного репозитория. Кнопка и Настройки интегрированы в ГИС систему.
 
 #### Описание:
 **Глобальные:**
