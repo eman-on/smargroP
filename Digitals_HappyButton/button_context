@@ -1,25 +1,27 @@
+Code of HP. If needed to learn.
+
 ShowHeader=0
 Left=1190
 Top=82
 Width=481
 Height=37
 Visible=0
-Names=9КЖ,5КЖ,3КЖ,2КЖ,КЖ,2Ж,Ж,2КН,КН,Н,К,М,МН
+Names=9ГЉГ†,5ГЉГ†,3ГЉГ†,2ГЉГ†,ГЉГ†,2Г†,Г†,2ГЉГЌ,ГЉГЌ,ГЌ,ГЉ,ГЊ,ГЊГЌ
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КЖ
+@Map.Object[$N].Parameter[ID99]=ГЉГ†
 @Map.Object[$N].Parameter[ID100]=9
-@Map.Object[$N].Parameter[ID3]=жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -33,19 +35,19 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КЖ
+@Map.Object[$N].Parameter[ID99]=ГЉГ†
 @Map.Object[$N].Parameter[ID100]=5
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -59,19 +61,19 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КЖ
+@Map.Object[$N].Parameter[ID99]=ГЉГ†
 @Map.Object[$N].Parameter[ID100]=3
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -85,19 +87,19 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КЖ
+@Map.Object[$N].Parameter[ID99]=ГЉГ†
 @Map.Object[$N].Parameter[ID100]=2
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -111,18 +113,18 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КЖ
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID99]=ГЉГ†
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 @Map.Object[$N].Parameter[ID100]=1
 %next
 $N=@Map.NextSelected $N
@@ -137,19 +139,19 @@ $N=@Map.NextSelected 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=Ж
+@Map.Object[$N].Parameter[ID99]=Г†
 @Map.Object[$N].Parameter[ID100]=2
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Дерев'яний
-@Map.Object[$N].Parameter[ID13]=Невогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=Г„ГҐГ°ГҐГў'ГїГ­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=ГЌГҐГўГ®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -163,19 +165,19 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=Ж
+@Map.Object[$N].Parameter[ID99]=Г†
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Жилий
-@Map.Object[$N].Parameter[ID10]=Дерев'яний
-@Map.Object[$N].Parameter[ID13]=Невогнестійкий
+@Map.Object[$N].Parameter[ID3]=Г†ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=Г„ГҐГ°ГҐГў'ГїГ­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=ГЌГҐГўГ®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -190,19 +192,19 @@ $N=@Map.NextSelected 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КН
+@Map.Object[$N].Parameter[ID99]=ГЉГЌ
 @Map.Object[$N].Parameter[ID100]=2
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -216,21 +218,21 @@ $N=@Map.NextSelected $N
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
-@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=КН
+@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=ГЉГЌ
 @if $lay=44412000 then @Map.Object[$N].Parameter[ID100]=1
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=КН
+@Map.Object[$N].Parameter[ID99]=ГЉГЌ
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -245,25 +247,25 @@ $N=@Map.NextSelected 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 $go=0
-@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=Н
+@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=ГЌ
 @if $lay=44412000 then @Map.Object[$N].Parameter[ID100]=1
 @if $lay=44210000 then $go=1
 @if $lay=53420000 then $go=2
 @if $lay=51327000 then $go=1
 @if $go=0 then @Map.DeselectObject $N
 @if $go=0 then @goto %next
-@Map.Object[$N].Parameter[ID99]=Н
+@Map.Object[$N].Parameter[ID99]=ГЌ
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Дерев'яний
-@if $go=1 then @Map.Object[$N].Parameter[ID13]=Невогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=Г„ГҐГ°ГҐГў'ГїГ­ГЁГ©
+@if $go=1 then @Map.Object[$N].Parameter[ID13]=ГЌГҐГўГ®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -280,25 +282,25 @@ $l=@Map.Selected.GetParameter 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 $go=0
-@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]К
+@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]ГЉ
 @if $lay=44412000 then @Map.Object[$N].Parameter[ID100]=1
 @if $lay=44210000 then $go=1
 @if $lay=53420000 then $go=2
 @if $lay=51327000 then $go=1
 @if $go=0 then @Map.DeselectObject $N
 @if $go=0 then @goto %next
-@Map.Object[$N].Parameter[ID99]=К
+@Map.Object[$N].Parameter[ID99]=ГЉ
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Бетонний
-@if $go=1 then @Map.Object[$N].Parameter[ID13]=Вогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЃГҐГІГ®Г­Г­ГЁГ©
+@if $go=1 then @Map.Object[$N].Parameter[ID13]=Г‚Г®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -315,14 +317,14 @@ $l=@Map.Selected.GetParameter 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
 $go=0
-@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=М
+@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=ГЊ
 @if $lay=44412000 then @Map.Object[$N].Parameter[ID100]=1
 @if $lay=44412000 then @Map.Selected.CreateCaptions ID99 1 0 1 1 0 0
 @if $lay=44210000 then $go=1
@@ -330,11 +332,11 @@ $go=0
 @if $lay=51327000 then $go=1
 @if $go=0 then @Map.DeselectObject $N
 @if $go=0 then @goto %next
-@Map.Object[$N].Parameter[ID99]=М
+@Map.Object[$N].Parameter[ID99]=ГЊ
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Металевий
-@Map.Object[$N].Parameter[ID13]=Невогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЊГҐГІГ Г«ГҐГўГЁГ©
+@Map.Object[$N].Parameter[ID13]=ГЌГҐГўГ®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
@@ -352,22 +354,22 @@ $l=@Map.Selected.GetParameter 0
 }
 
 $N=@Map.NextSelected 0
-@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
-;цикл по всем помеченным объектам карты
+@if $N=0 then @Break Г‚Г»Г¤ГҐГ«ГЁГІГҐ Г®ГЎГєГҐГЄГІГ» Г¤Г«Гї ГЄГ®ГІГ®Г°Г»Гµ ГІГ°ГҐГЎГіГҐГІГ±Гї Г§Г ГЇГ®Г«Г­ГЁГІГј ГЇГ Г°Г Г¬ГҐГІГ°Г»
+;Г¶ГЁГЄГ« ГЇГ® ГўГ±ГҐГ¬ ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г»Г¬ Г®ГЎГєГҐГЄГІГ Г¬ ГЄГ Г°ГІГ»
 %Start
-;перебрали все выделенные объекты карты
-;заполняем параметры помеченного объекта
+;ГЇГҐГ°ГҐГЎГ°Г Г«ГЁ ГўГ±ГҐ ГўГ»Г¤ГҐГ«ГҐГ­Г­Г»ГҐ Г®ГЎГєГҐГЄГІГ» ГЄГ Г°ГІГ»
+;Г§Г ГЇГ®Г«Г­ГїГҐГ¬ ГЇГ Г°Г Г¬ГҐГІГ°Г» ГЇГ®Г¬ГҐГ·ГҐГ­Г­Г®ГЈГ® Г®ГЎГєГҐГЄГІГ 
 $lay=@Map.Object[$N].LayerID
-@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=МН
+@if $lay=44412000 then @Map.Object[$N].Parameter[ID99]=ГЊГЌ
 @if $lay=44412000 then @Map.Object[$N].Parameter[ID100]=1
 @if $lay=44412000 then @Map.Selected.CreateCaptions ID99 1 0 1 1 0 0
 @if $lay<>44210000 then @Map.DeselectObject $N
 @if $lay<>44210000 then @goto %next
-@Map.Object[$N].Parameter[ID99]=МН
+@Map.Object[$N].Parameter[ID99]=ГЊГЌ
 @Map.Object[$N].Parameter[ID100]=1
-@Map.Object[$N].Parameter[ID3]=Не жилий
-@Map.Object[$N].Parameter[ID10]=Металевий
-@Map.Object[$N].Parameter[ID13]=Невогнестійкий
+@Map.Object[$N].Parameter[ID3]=ГЌГҐ Г¦ГЁГ«ГЁГ©
+@Map.Object[$N].Parameter[ID10]=ГЊГҐГІГ Г«ГҐГўГЁГ©
+@Map.Object[$N].Parameter[ID13]=ГЌГҐГўГ®ГЈГ­ГҐГ±ГІВіГ©ГЄГЁГ©
 %next
 $N=@Map.NextSelected $N
 @if $N>0 then @Goto %Start
