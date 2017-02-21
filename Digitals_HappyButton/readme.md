@@ -12,7 +12,8 @@ Main:
 2. House numbering kit
 3. House parameters kit
 
-1. Happy Button
+##### Happy Button
+
 It significantly simplify object picking process:
 automatically build composite objects;
 perform automatic transitions between collection patterns as well as layers;
