@@ -15,7 +15,7 @@ Main:
 2. House numbering kit
 3. House parameters kit
 
-**1- Happy Button
+**1. Happy Button**
 
 It significantly simplify object picking process:
 automatically build composite objects;
@@ -75,7 +75,7 @@ Automatically signs objects.
 - Playgrounds
 - Garages
 
-2- House numbering kit
+**2. House numbering kit**
 
 Allow quick numbering of buildings
 
@@ -85,7 +85,7 @@ Allow quick numbering of buildings
 
 2.3 Calculator kit: numbers + letter
 
-3- Building parameters kit
+**3. Building parameters kit**
 
 Comfortable kit with material parameters of buildings. Allow quick parameters picking. Has limits to work only with layers "buildings", "bhurch" and "transformer buildings" in order to exclude of ruin qualifier.
 
@@ -106,7 +106,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 2. Набор нумирации домов
 3. Набор параметров домов
 
-1- Кнопка счастья:
+**1. Кнопка счастья:**
 
 Позволяет сильно упростить сбор объектов:
 автоматически достраивать составные объекты;
@@ -168,7 +168,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 - Детские площадки
 - Гаражи
 
-2- Набор нумирации домов
+**2. Набор нумирации домов**
 
 Позволяет быстро выставлять нумирацию домов.
 
@@ -178,7 +178,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 2.3 Набор в виде калькулятора: номера + буквы
 
-3- Набор параметров домов
+**3. Набор параметров домов**
 
 Удобный набор с параметрами материалов домов.
 Позволяет быстро выбрать нужный набор параметров. Имеет ограничение,
