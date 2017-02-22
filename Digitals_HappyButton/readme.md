@@ -10,7 +10,7 @@ Developed for v. 2015 y.
 
 How it's works? Just click the button!
 
-![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/hb.jpg)
+![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/HB.jpg)
 
  
 
@@ -110,7 +110,7 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 Все что нужно - нажать кнопку!
 
-![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/hb.jpg)
+![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/HB.jpg)
 
  
 
