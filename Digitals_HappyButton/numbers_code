@@ -1,6 +1,5 @@
 ;Numbers button. Make button - insert this code.
 ;Developed by no_name
-;
 $N=@Map.NextSelected 0
 @if $N=0 then @Break
 %Start
