@@ -30,7 +30,7 @@ Pic. 2. The result: Layers
 
 In the list will be shown all not specified layers. There are several options:
 - Delete selected layer - will delete the layer with all information on it;
-- Show objects in selected layer - will show objects one by one in Digitals that you could change their layers.
+- Show selected layer objects - will show selected layer objects in Digitals that you could inspect them.
 
  
  
@@ -47,4 +47,57 @@ In the list will be shown all not specified layers. There are several options:
  - Clear all layers parameters;
  - Check "global" parameters of project and clean them.
 
-In the output of this check procedure the project will be cleared from non specified layers and all layers parameters will be cleared and checked.
+In the output of this procedure the project will be cleared from non specified layers and all layers parameters will be  standardized!
+
+Yey! )
+
+ 
+ 
+(РУС)
+
+Разработано как дополнение к ГИС системе "Digitals" дающем возможность проверки и сравнения слоев проекта со слоями классификатора. Цель проекта - исключить ошибки.
+
+Кнопка дополнения интегрирована в ГИС систему и запуск необходим из нее.
+
+Дополнение необходимо распаковать в папку ".../Digitals/addons/checker/" а "Check.tlb" в папку "Digitals".
+
+Разработанно было под версию 2015 г.
+
+ 
+### Описание
+TCP/IP программа обращается к LocalHost:1067 (можно изменить)
+
+Эта программа проверяет проект перед отправкой заказчику: есть ли в нем "новые" слои которых нет в классификаторе и все ли слои в проекте с правильными параметрами. Как это работает:
+
+Нажать на кнопку дополнения (рисунок 1) в программе Digital и процесс начнется.
+
+![Image of button](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/button_in_Digitals.jpg)
+
+Рис. 1 Кнопка дополнения в Digitals
+
+После того, как все сравнения будут выполнены программа покажет результат (рисунок 2):
+
+![Image of layers](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/layers.jpg)
+
+Рис. 2. Результат: Слои
+
+В данном листе будут показанны все не зарегистрированные слои и предложенно несколько вариантов действий:
+- Удалить выбранный слой - удалит слой со всей информацией на нем;
+- Показать объекты выбранного слоя - покажет в Digitals объекты, которые есть на данном слое.
+
+ 
+ 
+ Во вкладке "Параметры" (рисунок 3) программа показывает все слои с отличными параметрами от классификатора:
+  
+ ![Image of parameters](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/params.jpg)
+ 
+ Рис. 3. Результат: Параметры
+ 
+ Справа показаны стандартные и существующие параметры выбранного слоя.
+  
+ В этом окошке есть следующие возможности:
+ - Очистить параметры выбранного слоя (вернуть стандартные);
+ - Очистить параметры всех слоев;
+ - Проверить "глобальные" параметры проекта и очистить их.
+
+Как результат данной процедуры получится проект очищенный от дополнительных слоев и с начальным набором параметров!
