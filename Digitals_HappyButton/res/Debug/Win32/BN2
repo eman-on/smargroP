@@ -1,0 +1,783 @@
+ShowHeader=0
+Left=781
+Top=63
+Width=1134
+Height=21
+Visible=0
+Names=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,д,е,ж,з
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=51
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=52
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=53
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=54
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=55
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=56
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=57
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=58
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=59
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=60
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=61
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=62
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=63
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=64
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=65
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=66
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=67
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=68
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=69
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=70
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=71
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=72
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=73
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=74
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=75
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=76
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=77
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=78
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=79
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=80
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=81
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=82
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=83
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=84
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=85
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=86
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=87
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=88
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=89
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=90
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=91
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=92
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=93
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=94
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=95
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=96
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=97
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=98
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=99
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+@Map.Object[$N].Parameter[ID120]=100
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+$bn=@Map.Object[$N].Parameter[ID120]
+@Map.Object[$N].Parameter[ID120]=$bnд
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+$bn=@Map.Object[$N].Parameter[ID120]
+@Map.Object[$N].Parameter[ID120]=$bnе
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+$bn=@Map.Object[$N].Parameter[ID120]
+@Map.Object[$N].Parameter[ID120]=$bnж
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+$bn=@Map.Object[$N].Parameter[ID120]
+@Map.Object[$N].Parameter[ID120]=$bnз
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+@SelectTab 2
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+;
+$N=@Map.NextSelected 0
+@if $N=0 then @Break Выделите объекты для которых требуется заполнить параметры
+;цикл по всем помеченным объектам карты
+%Start
+;перебрали все выделенные объекты карты
+;заполняем параметры помеченного объекта
+$bn=@Map.Object[$N].Parameter[ID120]
+$bg=-
+@Map.Object[$N].Parameter[ID120]=$bn$bg
+$N=@Map.NextSelected $N
+@if $N>0 then @Goto %Start
+;выносим подписи
+@Map.Selected.CreateCaptions ID120 1 0 4 1 0 0
+@Window.Refresh
+@SelectTab 2
+;
