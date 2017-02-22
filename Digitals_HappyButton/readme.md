@@ -8,6 +8,10 @@ Solution is to delete that layers manually or use program "Check" from this repo
 
 Developed for v. 2015 y.
 
+How it's works? Just click the button!
+
+![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/hb.jpg)
+
  
 
 ### Description
@@ -103,7 +107,14 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 Разработано для вер. 2015г.
 
-#### Описание:
+
+Все что нужно - нажать кнопку!
+
+![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/hb.jpg)
+
+ 
+
+### Описание:
 **Глобальные:**
 
 1. Кнопка счастья
