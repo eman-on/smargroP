@@ -6,7 +6,7 @@ Developed as addon for PostgreSQL/PostGIS that significantly simplifies GeoRaste
 Has been developed as my final thesis in my first uni )
 
 
-![Image of HB](https://github.com/eman-on/smargroP/blob/master/Digitals_Checker/pres/HB.jpg)
+![Image of HB](https://github.com/eman-on/smargroP/blob/master/PostgreSQL%20ZR/pres/PostgreSQLZR.jpg)
 
  
 
