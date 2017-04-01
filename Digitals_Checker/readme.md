@@ -1,4 +1,4 @@
-## Checker
+## Digitals Checker
 
 (EN)
 
