@@ -4,7 +4,7 @@
 
 Developed as addon for PostgreSQL/PostGIS that significantly simplifies GeoRaster downloading process and make it much easier and faster.
 
-Has been developed as addon to my final thesis in first uni )
+Has been developed as my final thesis in first uni )
 
  
 
@@ -21,7 +21,7 @@ The requests will be generate and executed automatically.
  
 
 **How**
-1. Add the server IP or choose it from the list. You can save it.
+1. Add the server IP or choose it from the list (You can save it).
 
 2. User and password.
 
@@ -35,7 +35,7 @@ The requests will be generate and executed automatically.
 
  
  
- Feel free to use )
+ Free to use )
  
   
  
