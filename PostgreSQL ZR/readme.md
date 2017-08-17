@@ -15,7 +15,7 @@ Has been developed as my final thesis in first uni )
 ### Description
 **What**
 
-This program has user interface so there is no need to make hundred of sql requests anymore )
+This program has user interface so there is no need to make hundreds of sql requests anymore )
 
 The requests will be generate and executed automatically.
  
@@ -25,7 +25,7 @@ The requests will be generate and executed automatically.
 
 2. User and password.
 
-3. Data Base name, scheme and table names.
+3. DataBase name, scheme and table names.
 
 4. Add all rasters that need to be downloaded.
 
