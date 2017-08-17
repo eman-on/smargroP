@@ -35,22 +35,27 @@ automatically sign objects.
 
 Performs automatic object construction, auto transition between the layers/signatures.
 - Simplifies the collection of poles.
+
 In poles collecting process prompts you to add lantern in pop-up window which provides several types of them. In the absence of a lantern, press "Cancel".
 
 - Simplifies the collection of hills.
+
 It provides auto-reverse and automatically completes the contour line.
 When collecting fortified hills is necessary to make the line invisible -
 right-click "Invisible" (automatically selected).
 
 - Simplifies the collection of  trees.
+
 Requests to enter the necessary data in pop-up windows
 and then creates all labels. Black line need to be drown (automatically selected).
 
 - Simplifies the collection of water boundary / demarcation line.
+
 Requests to enter the necessary data in pop-up windows
 and then creates all labels. Black line need to be drown (automatically selected).
 
 - Simplifies the collection of  geodetic points.
+
 Requests to enter the necessary data in pop-up windows
 and then creates all labels.
 
@@ -58,14 +63,17 @@ and then creates all labels.
 
 Allow auto transition between the layers/signatures.
 - Awnings
+
 After collecting a shed automatically selects
 line to create pillars.
 
 - Buildings
+
 EXPERIMENTAL VERSION!
 Add points in buildings lines. Eliminates errors.
 
 - Sheet-proofs
+
 EXPERIMENTAL VERSION!
 Auto Transition on sheet-proofs layer, eliminates errors.
 
@@ -134,26 +142,31 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 Выполняет автоматическое построение объектов, автопереходы между слоями, подписи.
 - Упрощает сбор столбов.
+
 При сборе столбов выдает запрос на добавление фонаря в виде
 всплывающего окошка, где дается несколько видов фонарей на
 выбор. В случае отсутствия фанаря нажмите "Отмена".
 
 - Упрощает сбор укосов.
+
 Предлагает автореверс и автоматически достраивает линию контур.
 При сборе укрепленных укосов необходимо сделать линию невидимой
 нажав правой кнопкой "Невидимая" (она автоматически выделяется).
 
 - Упращает сбор деревьев.
+
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи. Необходимо
 дорисовать черную линию (она автоматически выбрана)
 
 - Упращает сбор урезов воды.
+
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи. Необходимо
 дорисовать черную линию (она автоматически выбрана)
 
 - Упращает сбор геодезических пунктов.
+
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи.
 
@@ -161,14 +174,17 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 Выполняет автоматическое достроение объектов, автопереходы между слоями
 - Навесы
+
 После сбора навеса автоматически выбирает
 линию для создания столбов.
 
 - Дома
+
 ЭКСПЕРЕМЕНТАЛЬНАЯ ВЕРСИЯ!
 Доставляет точки в линии домов при сборе. Исключает ошибки.
 
 - Карректура
+
 Автопереход на слой Коррекатур. Исключает ошибки.
 
 1.3 Автоподписи
