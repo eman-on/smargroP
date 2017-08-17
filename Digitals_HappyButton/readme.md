@@ -23,12 +23,15 @@ How it's works? Just click the button!
 2. House numbering kit
 3. House parameters kit
 
+
+
 **1. Happy Button**
 
 It significantly simplify object picking process:
 automatically build composite objects;
 perform automatic transitions between collection patterns as well as layers;
 automatically sign objects.
+
 
 
 1.1 Compositing
@@ -59,6 +62,8 @@ and then creates all labels. Black line need to be drown (automatically selected
 Requests to enter the necessary data in pop-up windows
 and then creates all labels.
 
+
+
 1.2 Helping
 
 Allow auto transition between the layers/signatures.
@@ -77,6 +82,8 @@ Add points in buildings lines. Eliminates errors.
 EXPERIMENTAL VERSION!
 Auto Transition on sheet-proofs layer, eliminates errors.
 
+
+
 1.3 Auto labels
 
 Automatically signs objects.
@@ -91,6 +98,8 @@ Automatically signs objects.
 - Playgrounds
 - Garages
 
+
+
 **2. House numbering kit**
 
 Allow quick numbering of buildings
@@ -100,6 +109,8 @@ Allow quick numbering of buildings
 2.2 Two likes kit - numbers from 1 to 50 and 51 to 100 + letter
 
 2.3 Calculator kit: numbers + letter
+
+
 
 **3. Building parameters kit**
 
@@ -131,12 +142,16 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 2. Набор нумирации домов
 3. Набор параметров домов
 
+
+
 **1. Кнопка счастья:**
 
 Позволяет сильно упростить сбор объектов:
 автоматически достраивать составные объекты;
 выполнять автоматические переходы между шаблонами сбора а так же слоями;
 автоматически подписывать объекты.
+
+
 
 1.1 Построение
 
@@ -170,6 +185,8 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 Просит ввод необходимых данных в всплывающие окошки,
 после чего создает необходимые подписи.
 
+
+
 1.2 Помощь
 
 Выполняет автоматическое достроение объектов, автопереходы между слоями
@@ -187,6 +204,8 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 
 Автопереход на слой Коррекатур. Исключает ошибки.
 
+
+
 1.3 Автоподписи
 
 Автоматически подписывает объекты.
@@ -201,6 +220,8 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 - Детские площадки
 - Гаражи
 
+
+
 **2. Набор нумирации домов**
 
 Позволяет быстро выставлять нумирацию домов.
@@ -210,6 +231,8 @@ Comfortable kit with material parameters of buildings. Allow quick parameters pi
 2.2 Набор в две строки - номера от 1 до 50 и от 51 до 100 + буквы в каждой строке
 
 2.3 Набор в виде калькулятора: номера + буквы
+
+
 
 **3. Набор параметров домов**
 
